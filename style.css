@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+body {
+    background-color: rgba(2, 18, 144, 0.444);
+    padding: 0;
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu {
+        padding: 0px;
+}
+
+#encabezado {
+    
+    background-color: rgb(72, 103, 170);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+;
+
+}
+
+ol,ul {
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+    color: rgb(237, 100, 100);
+
+}
+
+a:visited {
+    color: inherit;
+}
+
+header a i {
+
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    padding: 20px;
+
+
+}
+
+.acerca-de {
+
+    text-align: inherit;
+
+}
+
+ h2, h3, h4 {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.acerca-imagen {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0em 0em 0em;
+    margin: 0em 0em;
+    padding: 0.5em 0.5em;
+}
+
+.acerca-imagen img {
+    height: 500px;
+    width:  500px;
+}
+
+
+.seccion-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+h2 {
+
+    margin: 0;
+    padding: 0;
+}
+
+.acer {
+
+    margin: 0;
+    padding: 0;
+}
+
+.seccion-1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+footer {
+    
+    background-color: rgb(60, 113, 237);
+        display: flex;
+    color: rgb(240, 248, 255);
+    font-size: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+    /* Contorno */
+
+}
+
+footer p { 
+    margin-bottom: 5px;
+}
+
+.power {
+    flex: 1;
+    text-align: left;
+    padding: 0.1em;
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.year {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 0.1em;
+    font-size: 12px;
+    align-items: end;
+}
+
+
+/*footer div p {
+
+    color: aliceblue;
+background-color: blue;
+    display: flex;
+       justify-content: center;
+      
+    
+}*/
+
+.trabajos {
+
+    background-color: rgb(31, 31, 116);
+    display: flex;
+}
+
+.ele-1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.titu1,
+.titu2,
+.titu3 {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5em 0 5em;
+}
+
+.elemento-descripcion {
+    text-align: justify;
+}
+
+.info {
+    flex: 1;
+    text-align: right;
+    padding-right: 5em;
+}
+
+.info p {
+    font-size: 15px;
+}
+
+.social {
+    flex: 1;
+    text-align: left;
+
+}
+
+.social p {
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .formula1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+
+/* MENU */
+#check {
+    display: none;
+}
+
+
+.checkbtn {
+    font-size: 25px;
+    color: rgb(186, 5, 5);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+  
+  
+
+/* MEDIA QUERIES*/
+
+@media (max-width:768px) {
+    header {
+        background-color: burlywood
+    }
+
+.acerca-de {
+    text-align: center;
+}
+
+.acerca-imagen {
+    margin-bottom: 40px;
+}
+.checkbtn {
+    display: block;
+  }
+
+#encabezado ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    text-align: center;
+
+    top: 80px;
+    left: 100%;
+    transition: all 0.5s;
+    
+   }
+
+ #check:checked ~ ul {
+    left: 0;
+    display: block;
+}
+
+#encabezado nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+
+#encabezado nav ul li a {
+    font-size: 20px;
+}
+
+#check:checked ~ .checkbtn {
+    color: #2c3e50;
+}
+
+.seccion-1 {
+
+    flex-direction: column;
+}
+
+.ele-1 {
+    flex-direction: column;
+}
+
+.form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+
+    .form-row textarea {
+        width: 250px;
+      }
+  
+      .form-row button {
+        margin-left: 120px; } 
+} 
+
+ 
